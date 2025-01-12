@@ -1,0 +1,485 @@
+
+<html>
+<head>
+    <title>Sales Reports</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 8px 12px; text-align: left; border: 1px solid #ddd; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Sales Reports</h1>
+<h2>Total Sales by Campaign</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>campaign_name</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Black Friday Special</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>Christmas Sale</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>Cyber Monday Deals</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <td>Easter Discount</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <td>New Year Promo</td>
+      <td>700</td>
+    </tr>
+    <tr>
+      <td>Spring Clearance</td>
+      <td>950</td>
+    </tr>
+    <tr>
+      <td>Summer Flash Sale</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>Summer Sale</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>Valentine's Day Offer</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>Winter Discount</td>
+      <td>400</td>
+    </tr>
+  </tbody>
+</table><h2>Total Sales by Customer</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>customer_name</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Helen</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>James</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>Alice</td>
+      <td>900</td>
+    </tr>
+    <tr>
+      <td>Iris</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>650</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>600</td>
+    </tr>
+    <tr>
+      <td>Frank</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>Grace</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>Eva</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>David</td>
+      <td>250</td>
+    </tr>
+  </tbody>
+</table><h2>Total Sales by Channel</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>channel_name</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Affiliate Marketing</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>TV Ads</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>Display Ads</td>
+      <td>950</td>
+    </tr>
+    <tr>
+      <td>Influencer Marketing</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <td>YouTube Ads</td>
+      <td>700</td>
+    </tr>
+    <tr>
+      <td>Social Media</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>Event Sponsorship</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>Search Ads</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>Email Campaign</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>Radio Ads</td>
+      <td>350</td>
+    </tr>
+  </tbody>
+</table><h2>Sales by Date</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>sale_date</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2024-02-05</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>2024-03-10</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>2024-03-20</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>2024-04-02</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <td>2024-06-02</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>2024-06-15</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>2024-06-18</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>2024-11-05</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>2024-12-01</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <td>2024-12-10</td>
+      <td>1150</td>
+    </tr>
+    <tr>
+      <td>2024-12-15</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>2024-12-26</td>
+      <td>700</td>
+    </tr>
+  </tbody>
+</table><h2>Customers by Location</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>location</th>
+      <th>customer_count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Berlin</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Cologne</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Düsseldorf</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Frankfurt</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Hamburg</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Leipzig</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Munich</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Stuttgart</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table><h2>Sales by Campaign and Customer</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>campaign_name</th>
+      <th>customer_name</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Black Friday Special</td>
+      <td>Helen</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>Christmas Sale</td>
+      <td>James</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>Cyber Monday Deals</td>
+      <td>Iris</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <td>Easter Discount</td>
+      <td>Bob</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <td>New Year Promo</td>
+      <td>Alice</td>
+      <td>700</td>
+    </tr>
+    <tr>
+      <td>Spring Clearance</td>
+      <td>Frank</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>Spring Clearance</td>
+      <td>Grace</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>Summer Flash Sale</td>
+      <td>Charlie</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>Summer Sale</td>
+      <td>Bob</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>Summer Sale</td>
+      <td>Alice</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>Valentine's Day Offer</td>
+      <td>Eva</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>Winter Discount</td>
+      <td>David</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>Winter Discount</td>
+      <td>Charlie</td>
+      <td>150</td>
+    </tr>
+  </tbody>
+</table><h2>Top 5 Campaigns with the Most Sales</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>campaign_name</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Black Friday Special</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>Christmas Sale</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>Spring Clearance</td>
+      <td>950</td>
+    </tr>
+    <tr>
+      <td>Cyber Monday Deals</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <td>New Year Promo</td>
+      <td>700</td>
+    </tr>
+  </tbody>
+</table><h2>Number of Sales by Channel</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>channel_name</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Social Media</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Email Campaign</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Display Ads</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>YouTube Ads</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TV Ads</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Search Ads</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Radio Ads</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Influencer Marketing</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Event Sponsorship</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Affiliate Marketing</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table><h2>Total Sales by Campaign with Min and Max Sale Amount</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>campaign_name</th>
+      <th>min_sale</th>
+      <th>max_sale</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Black Friday Special</td>
+      <td>1200</td>
+      <td>1200</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>Christmas Sale</td>
+      <td>1000</td>
+      <td>1000</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>Cyber Monday Deals</td>
+      <td>800</td>
+      <td>800</td>
+      <td>800</td>
+    </tr>
+    <tr>
+      <td>Easter Discount</td>
+      <td>350</td>
+      <td>350</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <td>New Year Promo</td>
+      <td>700</td>
+      <td>700</td>
+      <td>700</td>
+    </tr>
+    <tr>
+      <td>Spring Clearance</td>
+      <td>450</td>
+      <td>500</td>
+      <td>950</td>
+    </tr>
+    <tr>
+      <td>Summer Flash Sale</td>
+      <td>450</td>
+      <td>450</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>Summer Sale</td>
+      <td>200</td>
+      <td>300</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>Valentine's Day Offer</td>
+      <td>400</td>
+      <td>400</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>Winter Discount</td>
+      <td>150</td>
+      <td>250</td>
+      <td>400</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
